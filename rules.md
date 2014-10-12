@@ -30,8 +30,8 @@ Quitting
 Rule 2.0 | The Rules about Rules | Power 3
 ------------------------------------------
 
-Each rule has a Rule Number, which is the next sequential integer
-after the last integer that has ever been used to define a rule.
+Each rule has a Rule Number, which is the next sequential number after
+the highest of any other rule that has ever existed.
 
 Each rule has a revision number, which is the number of changes made
 to the rule since it was enacted.
@@ -89,9 +89,10 @@ Rule 5.0 | Passing Proposals | Power 3
 
 Quorum is 2/5ths of all players.
 
-The required fraction of a proposal is n/n+1,
-where n is the highest Power Number of any existing or proposed rules
-involved in the proposal, before or after the proposal passes.
+The required fraction of a proposal is n/(n+1), where n is the highest
+Power Number of any existing or proposed rules involved in the
+proposal, before or after the proposal passes. If the Power Number is
+1, the required fraction is (n+0.1)/n+1.
 
 A proposal passes if, after its voting period, it has been voted on
 by a quorum of players and at least the required fraction of players
@@ -141,8 +142,8 @@ proposals that have been submitted since the last time the Speaker
 did so; this begins the voting period of every rule that the Speaker
 has just submitted.
 
-Each player may vote exactly once on each proposal during its voting
-period. Valid votes are FOR, PRESENT, and AGAINST.
+Each player may submit exactly one vote on each proposal during its
+voting period. Valid votes are FOR, PRESENT, and AGAINST.
 
 For the required fraction of a proposal, only FOR and AGAINST are
 counted.
