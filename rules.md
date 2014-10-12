@@ -1,7 +1,3 @@
-Please proof-read these when you have the chance.
-Hopefully you receive this in a monospace font and it's readable.
-<3<3<3<3<3
-
 =====================================================================
 Rule 1.0 | The Three-Fold Contract | Power 3
 --------------------------------------------
