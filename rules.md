@@ -33,14 +33,14 @@ Rule 2.0 | The Rules about Rules | Power 3
 Each rule has a Rule Number, which is the next sequential number after
 the highest of any other rule that has ever existed.
 
-Each rule has a revision number, which is the number of changes made
+Each rule has a Revision Number, which is the number of changes made
 to the rule since it was enacted.
 
 Each rule has a Power Number, which is a whole, positive integer.
 
-Each rule has a title, which has no effect.
+Each rule has a Title, which has no effect.
 
-Each rule has a text, which is considered to be a series of facts
+Each rule has a Text, which is considered to be a series of facts
 about the game.
 
 Rules cannot be changed except as described by the rules.
