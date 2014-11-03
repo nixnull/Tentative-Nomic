@@ -185,3 +185,131 @@ specifying who e has deregistered.
 This cannot be used if there have not been 2 voting periods.
 
 =====================================================================
+Rule 12.0 | Trade | Power 1
+---------------------------
+
+Items are entities which players can possess.
+
+Players may submit a trade offer by specifying some set of items they
+possess, some set of items they want, and optionally a player who
+posses the wanted items.
+
+Any player may submit a trade acceptance by specifying a trade offer
+IF AND ONLY IF 1) the trade offer is still active, 2) they possess all
+wanted items, and 3) if applicable, they are the specified player.
+
+If a trade offer is accepted, the submitter no longer possesses the
+specfied set of items they possessed, or the submitter submits a trade
+withdrawal (specifying the trade offer), the trade offer is no longer
+active; otherwise it is.
+
+When a trade offer is accepted, the items the submitter possessed
+become possessed by the accepter (and thus lost by the submitter)
+and the items the submitter wanted become possessed by the
+submitter (and thus lost by the accepter).
+
+=====================================================================
+Rule 13.0 | Currency | Power 1
+------------------------------
+
+Credit is a type of item. When a player registers for the first time,
+they automatically possess 100 credits. All players who are registered
+at the time this rule passes also possess 100 credits.
+
+=====================================================================
+Rule 14.0 | The Cabinet | Power 1
+---------------------------------
+
+The speaker may create, destroy, or modify a specified cabinet
+position by submision. The speaker may also assign or unassign a
+player to a specified cabinet position by submission.
+
+Each cabinet position has a title and a list of duties, which should
+deal with tracking gamestate. The player assigned to a cabinet
+position should weekly report all changes to gamestate related to
+their duties.
+
+=====================================================================
+Rule 15.0 | Valor Victory | Power 1
+-----------------------------------
+
+Badges and Medals are types of items. If a badge or medal can be
+"awarded" under some conditions, then any player may submit a Award
+Announcement specifying a badge or medal and a player that meets the
+conditions. The player specified then receives one of the specified
+badge or medal. No badge or medal can be awarded to any player that
+already has one of that type of badge. Only one badge or medal can be
+awarded for a single event.
+
+Each badge belongs to a league. Each league has a single type of medal
+and any player can be awarded it if they have at least one of each
+badge associated with the league. When a player is awarded a medal,
+they lose all their badges that belong to that league.
+
+If a player has more medals than any other player for 15 consecutive
+days, they win.
+
+The Legislative Chamber is a league with the Legislator medal and the
+following badges:
+
+* The Popular Policy badge, which can be awarded for submitting a
+proposal which passes with every vote on it being FOR.
+
+* The Powerful Policy badge, which can be awarded for submitting a
+proposal which passes and is at least the power of the highest power
+rule when it passes.
+
+* The Popular Legislator badge, which can be awarded for having 5
+proposals pass in a row. These do not have to be in consecutive
+rounds.
+
+* The Faithful Voter badge, which can be awarded for voting in 5
+consecutive voting periods.
+
+The Pillars of Community is a league with the Community Leader medal
+and the following badges:
+
+* The Recruiter badge, which can be awarded for having a player who
+stays for 30 days claim you as their recruiter. Players can only claim
+one recruiter.
+
+* The Reliable Judge badge, which can be awarded if the player has not ruled
+UNDECIDED or neglected to rule on the last 10 CFJs they were assigned to;
+the player must have actually ruled on at least 10 CFJs.
+
+* The Paragon badge, which can be awarded if the player has at least one of
+each other type of badge in the Pillar of Community league and no badges in
+the Force of Desctruction league.
+
+* The Charity badge, which can be awarded if the player awards someone else a
+badge that is not in the Force of Destruction league.
+
+The Force of Destruction league is a league with the Chaotic Neutral medal and
+the following badges:
+
+* The Token badge, which can be awarded for any reason at all, but a player
+cannot award it to themselves.
+
+* The Scamster's Fortune badge, which cannot be awarded by this rule, but can
+be awarded by other rules.
+
+* The Naysayer badge, which can be awarded for voting AGAINST twice as much
+as FOR and voting on at least 20 proposals.
+
+* The Fat-Cutter badge, which can be awarded for submitting a proposal that
+passes and subsequently repeals 3 rules.
+
+The Meta-Gamer league is a league with the Medtal medal and the following
+badges:
+
+* The Hoarder badge, which can be awarded for having at least 3 of a single
+badge.
+
+* The Mover-Shaker badge, which can be awarded for submitting a trade offer
+that is accepted and involves at least 4 badges.
+
+* The Collector badge, which can be awarded for having at least one badge from each
+league, including this one.
+
+* The Meta-Meta-Gamer badge, which can be awarded for proposing this rule or
+proposing an amendment to this rule that passes.
