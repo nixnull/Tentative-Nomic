@@ -1,3 +1,8 @@
+Number of current rule: 15
+Highest numbered rule ever: 15
+Highest numbered proposal ever: 5
+Number of voting rounds: 2
+
 =====================================================================
 Rule 1.0 | The Three-Fold Contract | Power 3
 --------------------------------------------
@@ -208,6 +213,8 @@ become possessed by the accepter (and thus lost by the submitter)
 and the items the submitter wanted become possessed by the
 submitter (and thus lost by the accepter).
 
+[Round 1]
+
 =====================================================================
 Rule 13.0 | Currency | Power 1
 ------------------------------
@@ -215,6 +222,8 @@ Rule 13.0 | Currency | Power 1
 Credit is a type of item. When a player registers for the first time,
 they automatically possess 100 credits. All players who are registered
 at the time this rule passes also possess 100 credits.
+
+[Round 1]
 
 =====================================================================
 Rule 14.0 | The Cabinet | Power 1
@@ -228,6 +237,8 @@ Each cabinet position has a title and a list of duties, which should
 deal with tracking gamestate. The player assigned to a cabinet
 position should weekly report all changes to gamestate related to
 their duties.
+
+[Round 1]
 
 =====================================================================
 Rule 15.0 | Valor Victory | Power 1
@@ -313,3 +324,5 @@ league, including this one.
 
 * The Meta-Meta-Gamer badge, which can be awarded for proposing this rule or
 proposing an amendment to this rule that passes.
+
+[Round 1]
