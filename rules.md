@@ -1,6 +1,9 @@
 Number of current rule: 15
+
 Highest numbered rule ever: 15
+
 Highest numbered proposal ever: 5
+
 Number of voting rounds: 2
 
 =====================================================================
